@@ -1,0 +1,43 @@
+what is Encapsulation ?
+Binding of data and corresponding methods into a single unit is called 
+Encapsulation 
+
+if any jav class follow  data hiding and abstraction then such class is referred as Encapsulated class 
+
+Encapsulation = Data Hiding +Data Abstraction 
+
+
+                    PRIVATE MEMBERS
+
+1. our internal data should not go to the ouside world dirctly . that is aoutside people should not access our 
+internal data directly  
+2. by using private modifiers we can implement dat hiding 
+
+
+                     Shadowing problem and this keyword 
+ if both local variabl and  instance variable have a the same name inside  the methods then if would result in a 
+ name class  and jvm will always give preference for loacal variable . This approach is callled the 
+ shadoweing problem 
+
+
+
+                      SETTER
+setter methods are used to set the value to the instance variables of the class 
+Sytax for setter method :
+1. compulsory the method name should start with  set 
+2. it should be public 
+3. return type should be void 
+4. compulsorily it should have some argument       
+
+
+
+                    GETTER
+setter methods are used to set the value to the instance variables of the class 
+Sytax for setter method :
+1. compulsory the method name should start with get 
+2. it should be public 
+3. return type should  not be void 
+4. compulsorily it should not have any  argument       
+
+
+                      
